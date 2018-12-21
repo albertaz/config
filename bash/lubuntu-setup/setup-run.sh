@@ -61,7 +61,7 @@ fi
 if [[ $instpack = "y" ]] 
 then
 	# 3. install linux packages
-	nohup lxterminal -e 'bash -c "xargs -a linux-packages sudo apt install; sleep 20"' $ 2>/dev/null
+	nohup lxterminal -e 'bash -c "xargs -a linux-packages sudo apt install; sleep 20"'
 fi
 
 #   4. edit lubuntu-rc.xml for shortcuts
